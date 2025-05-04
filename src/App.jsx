@@ -1,3 +1,4 @@
+import Bio from "./components/Bio";
 import Gallery, { Admin, Button } from "./components/Gallery";
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
         <Gallery />
         <Admin />
         <Button />
+        <Bio />
       </div>
     </div>
   );
