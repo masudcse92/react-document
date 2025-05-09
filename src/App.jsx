@@ -1,17 +1,7 @@
-import Bio from "./components/Bio";
-import Gallery, { Admin, Button } from "./components/Gallery";
+import Avatar from "./components/Avatar";
 
-function App() {
+export default function Profile() {
   return (
-    <div>
-      <div>
-        <Gallery />
-        <Admin />
-        <Button />
-        <Bio />
-      </div>
-    </div>
+    <Avatar person={{ name: "Lin Lanying", imageId: "1bX5QH6" }} size={100} />
   );
 }
-
-export default App;
